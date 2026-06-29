@@ -1,6 +1,5 @@
 #ifndef PRODUCTOS_H
 #define PRODUCTOS_H
-º
 
 typedef struct {
 
