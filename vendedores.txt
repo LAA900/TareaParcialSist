@@ -1,0 +1,2 @@
+admin,1234,Carlos
+ventas,1111,Ana

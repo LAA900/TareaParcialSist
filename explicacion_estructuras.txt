@@ -1,0 +1,30 @@
+La estructura Producto almacena:
+
+int codigo
+4 bytes
+
+char nombre[100]
+100 bytes
+
+int cantidad
+4 bytes
+
+float costo
+4 bytes
+
+float precioVenta
+4 bytes
+
+
+Tamaño teórico:
+116 bytes
+
+
+El tamaño real depende de la arquitectura.
+El compilador puede agregar padding
+para alinear los datos en memoria.
+
+
+El tamaño final se obtiene con:
+
+sizeof(Producto)
