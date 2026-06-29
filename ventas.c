@@ -93,15 +93,15 @@ void registrarVenta(
 
 
 
-    char fecha[11];
+    struct tm fechaActual = *localtime(&t);
 
+    char fecha[20];
 
-    sprintf(
+    strftime(
         fecha,
-        "%04d-%02d-%02d",
-        fechaActual.tm_year+1900,
-        fechaActual.tm_mon+1,
-        fechaActual.tm_mday
+        sizeof(fecha),
+        "%Y-%m-%d",
+        &fechaActual
     );
 
 
